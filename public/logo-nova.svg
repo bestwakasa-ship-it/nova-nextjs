@@ -1,0 +1,18 @@
+<svg width="238" height="56" viewBox="0 0 238 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="novaGrad" x1="8" y1="6" x2="52" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69AD8A"/>
+      <stop offset="1" stop-color="#2D6A50"/>
+    </linearGradient>
+    <linearGradient id="strokeGrad" x1="17" y1="14" x2="45" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8FFF1" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#E8FFF1" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="48" height="48" rx="12" fill="url(#novaGrad)"/>
+  <rect x="8.5" y="8.5" width="39" height="39" rx="9" stroke="url(#strokeGrad)" stroke-opacity="0.65"/>
+  <path d="M16 37V19H22.5L34 31.5V19H40V37H33.5L22 24.7V37H16Z" fill="white"/>
+  <path d="M34 31.5L40 37" stroke="#DFF8EA" stroke-opacity="0.85" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="64" y="30" fill="#1B3429" font-family="'Avenir Next', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1.6">NOVA</text>
+  <text x="65" y="44" fill="#5A6E64" font-family="'Avenir Next', 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" letter-spacing="2">AI BUSINESS OPTIMIZATION</text>
+</svg>

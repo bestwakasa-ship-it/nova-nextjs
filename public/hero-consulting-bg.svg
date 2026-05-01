@@ -1,0 +1,36 @@
+<svg width="1920" height="1200" viewBox="0 0 1920 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1920" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1D19"/>
+      <stop offset="0.55" stop-color="#1B332B"/>
+      <stop offset="1" stop-color="#2C4A3E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1540 180) rotate(135) scale(820 420)">
+      <stop stop-color="#E7FFF2" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#E7FFF2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1200" fill="url(#bg)"/>
+  <rect width="1920" height="1200" fill="url(#light)"/>
+
+  <g opacity="0.3">
+    <rect x="1050" y="160" width="580" height="860" rx="28" fill="url(#panel)" stroke="#DDF7E9" stroke-opacity="0.2"/>
+    <rect x="1120" y="230" width="440" height="96" rx="14" fill="#F1FFF6" fill-opacity="0.12"/>
+    <rect x="1120" y="360" width="300" height="16" rx="8" fill="#E1FAEA" fill-opacity="0.45"/>
+    <rect x="1120" y="390" width="370" height="16" rx="8" fill="#E1FAEA" fill-opacity="0.25"/>
+    <rect x="1120" y="470" width="440" height="260" rx="16" fill="#E8FFF1" fill-opacity="0.08"/>
+    <path d="M1160 670L1240 600L1310 640L1410 530L1500 580" stroke="#D9F6E5" stroke-opacity="0.52" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1240" cy="600" r="9" fill="#E8FFF2" fill-opacity="0.7"/>
+    <circle cx="1410" cy="530" r="9" fill="#E8FFF2" fill-opacity="0.7"/>
+  </g>
+
+  <g opacity="0.18" stroke="#D8F3E5" stroke-width="1.2">
+    <path d="M-120 860C220 760 600 980 960 850C1320 720 1640 860 2040 760"/>
+    <path d="M-140 930C220 830 560 1040 920 930C1280 820 1620 960 2040 860"/>
+  </g>
+</svg>
