@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { OFFICIAL_LINE_URL } from '../constants/officialLine'
 
 const companyInfo = [
   { label: '法人番号', value: '4010401197100' },
@@ -173,12 +173,12 @@ export function CompanyPage() {
             <br />
             ご相談をお待ちしています。
           </h2>
-          <Link to="/contact" className="contact-band-link">
+          <a href={OFFICIAL_LINE_URL} className="contact-band-link">
             <span>問い合わせる</span>
             <span className="inline-link-icon" aria-hidden="true">
               →
             </span>
-          </Link>
+          </a>
         </div>
       </section>
     </div>

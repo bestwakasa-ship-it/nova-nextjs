@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useState } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
+import { OFFICIAL_LINE_URL } from '../constants/officialLine'
 
 const defaultTitle = '株式会社NOVA | 人々の可能性を広げる'
 const defaultDescription =
@@ -123,9 +124,9 @@ export function Layout() {
                 </NavLink>
               ))}
             </nav>
-            <NavLink to="/contact" className="menu-cta" onClick={closeMenu}>
+            <a href={OFFICIAL_LINE_URL} className="menu-cta" onClick={closeMenu}>
               お問い合わせ
-            </NavLink>
+            </a>
           </div>
         </div>
       </header>
@@ -167,7 +168,7 @@ export function Layout() {
                   </li>
                 ))}
                 <li>
-                  <NavLink to="/contact">お問い合わせ</NavLink>
+                  <a href={OFFICIAL_LINE_URL}>お問い合わせ</a>
                 </li>
               </ul>
             </div>
@@ -183,9 +184,9 @@ export function Layout() {
               <p>
                 <a href="mailto:daily.work@nova-info.com">daily.work@nova-info.com</a>
               </p>
-              <NavLink to="/contact" className="footer-contact-link">
+              <a href={OFFICIAL_LINE_URL} className="footer-contact-link">
                 お問い合わせはこちら
-              </NavLink>
+              </a>
             </div>
           </div>
 

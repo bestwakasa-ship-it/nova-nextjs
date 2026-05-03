@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { OFFICIAL_LINE_URL } from '../constants/officialLine'
 import { services } from '../data/siteData'
 
 const sectionImages = [
@@ -30,12 +30,12 @@ export function ServicesPage() {
                 <p>
                   現場に合わせた導入設計と運用改善を行い、単発の効率化ではなく継続的に成果が積み上がる仕組みを構築します。
                 </p>
-                <Link to="/contact" className="inline-link">
+                <a href={OFFICIAL_LINE_URL} className="inline-link">
                   <span>このサービスを相談する</span>
                   <span className="inline-link-icon" aria-hidden="true">
                     →
                   </span>
-                </Link>
+                </a>
               </div>
 
               <div
@@ -56,14 +56,14 @@ export function ServicesPage() {
           <h2>
             事業内容に関するご相談は
             <br />
-            フォームよりお問い合わせください。
+            公式LINEよりお問い合わせください。
           </h2>
-          <Link to="/contact" className="contact-band-link">
+          <a href={OFFICIAL_LINE_URL} className="contact-band-link">
             <span>詳しくはこちら</span>
             <span className="inline-link-icon" aria-hidden="true">
               →
             </span>
-          </Link>
+          </a>
         </div>
       </section>
     </>

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { OFFICIAL_LINE_URL } from '../constants/officialLine'
 import { useEffect, useRef, useState } from 'react'
 
 const principles = [
@@ -143,12 +143,12 @@ export function MissionPage() {
             <br />
             ご相談をお待ちしています。
           </h2>
-          <Link to="/contact" className="contact-band-link">
+          <a href={OFFICIAL_LINE_URL} className="contact-band-link">
             <span>問い合わせる</span>
             <span className="inline-link-icon" aria-hidden="true">
               →
             </span>
-          </Link>
+          </a>
         </div>
       </section>
     </>

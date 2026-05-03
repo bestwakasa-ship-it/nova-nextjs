@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { OFFICIAL_LINE_URL } from '../constants/officialLine'
 
 export function HomePage() {
   return (
@@ -13,9 +14,9 @@ export function HomePage() {
               AIが業務を引き受ける。人は、人にしかできないことへ。NOVAは業務最適化を通じて、経営者の判断を加速させます。
             </p>
             <div className="hero-cta" data-animate="fade-up" data-delay="260">
-              <Link to="/contact" className="button">
+              <a href={OFFICIAL_LINE_URL} className="button">
                 無料相談を申し込む
-              </Link>
+              </a>
               <Link to="/services" className="button ghost">
                 サービスを見る
               </Link>
@@ -123,14 +124,14 @@ export function HomePage() {
           <h2>
             お問い合わせ・ご相談は
             <br />
-            フォームよりお問い合わせください。
+            公式LINEよりお問い合わせください。
           </h2>
-          <Link to="/contact" className="contact-band-link">
+          <a href={OFFICIAL_LINE_URL} className="contact-band-link">
             <span>詳しくはこちら</span>
             <span className="inline-link-icon" aria-hidden="true">
               →
             </span>
-          </Link>
+          </a>
         </div>
       </section>
     </>
