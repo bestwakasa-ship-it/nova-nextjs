@@ -140,6 +140,7 @@ export function Layout() {
             <div className="footer-brand" data-animate="fade-up">
               <img src="/logo-nova-header.png" alt="NOVA ロゴ" className="footer-logo" />
               <p>人々の可能性を広げる。AIで業務を再設計し、人が価値を生み出す仕事に集中できる組織をつくります。</p>
+              {/* SNSアイコン
               <div className="footer-sns">
                 <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
                   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -154,6 +155,7 @@ export function Layout() {
                   </svg>
                 </a>
               </div>
+              */}
             </div>
 
             <div className="footer-nav" data-animate="fade-up" data-delay="120">
