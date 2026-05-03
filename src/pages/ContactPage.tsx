@@ -11,7 +11,9 @@ export function ContactPage() {
       <div className="container" style={{ padding: '4rem 1rem', textAlign: 'center' }}>
         <p>公式LINEへ移動しています…</p>
         <p className="top-margin">
-          <a href={OFFICIAL_LINE_URL}>ページが開かない場合はこちら</a>
+          <a href={OFFICIAL_LINE_URL} target="_blank" rel="noopener noreferrer">
+            ページが開かない場合はこちら
+          </a>
         </p>
       </div>
     </section>

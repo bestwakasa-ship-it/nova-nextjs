@@ -30,7 +30,7 @@ export function ServicesPage() {
                 <p>
                   現場に合わせた導入設計と運用改善を行い、単発の効率化ではなく継続的に成果が積み上がる仕組みを構築します。
                 </p>
-                <a href={OFFICIAL_LINE_URL} className="inline-link">
+                <a href={OFFICIAL_LINE_URL} className="inline-link" target="_blank" rel="noopener noreferrer">
                   <span>このサービスを相談する</span>
                   <span className="inline-link-icon" aria-hidden="true">
                     →
@@ -58,7 +58,7 @@ export function ServicesPage() {
             <br />
             公式LINEよりお問い合わせください。
           </h2>
-          <a href={OFFICIAL_LINE_URL} className="contact-band-link">
+          <a href={OFFICIAL_LINE_URL} className="contact-band-link" target="_blank" rel="noopener noreferrer">
             <span>詳しくはこちら</span>
             <span className="inline-link-icon" aria-hidden="true">
               →

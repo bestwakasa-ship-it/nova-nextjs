@@ -124,7 +124,13 @@ export function Layout() {
                 </NavLink>
               ))}
             </nav>
-            <a href={OFFICIAL_LINE_URL} className="menu-cta" onClick={closeMenu}>
+            <a
+              href={OFFICIAL_LINE_URL}
+              className="menu-cta"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+            >
               お問い合わせ
             </a>
           </div>
@@ -168,7 +174,9 @@ export function Layout() {
                   </li>
                 ))}
                 <li>
-                  <a href={OFFICIAL_LINE_URL}>お問い合わせ</a>
+                  <a href={OFFICIAL_LINE_URL} target="_blank" rel="noopener noreferrer">
+                    お問い合わせ
+                  </a>
                 </li>
               </ul>
             </div>
@@ -184,7 +192,12 @@ export function Layout() {
               <p>
                 <a href="mailto:daily.work@nova-info.com">daily.work@nova-info.com</a>
               </p>
-              <a href={OFFICIAL_LINE_URL} className="footer-contact-link">
+              <a
+                href={OFFICIAL_LINE_URL}
+                className="footer-contact-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 お問い合わせはこちら
               </a>
             </div>

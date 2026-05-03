@@ -14,7 +14,7 @@ export function HomePage() {
               AIが業務を引き受ける。人は、人にしかできないことへ。NOVAは業務最適化を通じて、経営者の判断を加速させます。
             </p>
             <div className="hero-cta" data-animate="fade-up" data-delay="260">
-              <a href={OFFICIAL_LINE_URL} className="button">
+              <a href={OFFICIAL_LINE_URL} className="button" target="_blank" rel="noopener noreferrer">
                 無料相談を申し込む
               </a>
               <Link to="/services" className="button ghost">
@@ -126,7 +126,7 @@ export function HomePage() {
             <br />
             公式LINEよりお問い合わせください。
           </h2>
-          <a href={OFFICIAL_LINE_URL} className="contact-band-link">
+          <a href={OFFICIAL_LINE_URL} className="contact-band-link" target="_blank" rel="noopener noreferrer">
             <span>詳しくはこちら</span>
             <span className="inline-link-icon" aria-hidden="true">
               →

@@ -143,7 +143,7 @@ export function MissionPage() {
             <br />
             ご相談をお待ちしています。
           </h2>
-          <a href={OFFICIAL_LINE_URL} className="contact-band-link">
+          <a href={OFFICIAL_LINE_URL} className="contact-band-link" target="_blank" rel="noopener noreferrer">
             <span>問い合わせる</span>
             <span className="inline-link-icon" aria-hidden="true">
               →
